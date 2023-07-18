@@ -1,0 +1,100 @@
+
+.face{
+      width:500px;
+      height:500px;
+      border-radius:250px;
+      background-color:pink;
+      border:1px solid black;
+      position:absolute;
+      top:200px;
+  }
+  .eye{
+      width:200px;
+      height:200px;
+      border-radius:100px;
+      background-color:white;
+      border:1px solid black;
+      position:relative;
+  }
+  .eye:nth-child(1){
+      top:120px;
+      left:40px;
+  }
+  .eye:nth-child(2){
+      top:-80px;
+      left:270px;
+  }
+  .iris{
+      width:120px;
+      height:120px;
+      border-radius:60px;
+      background-color: black;
+      border:1px solid black;
+      position:relative;
+      top:50px;
+      left:50px;
+  }
+  .glow{
+      width:20px;
+      height:20px;
+      border-radius:10px;
+      background-color: white;
+      position:relative;
+      top:10px;
+      left:20px;
+  }
+  .nose{
+      width:150px;
+      height:120px;
+      background-color: pink;
+      border:1px solid black;
+      border-top-left-radius:50px;
+      border-top-right-radius:50px;
+      border-bottom-left-radius:75px;
+      border-bottom-right-radius:75px;
+      position:relative;
+      top:-50px;
+      left:170px;
+  }
+  .nostril{
+      width:50px;
+      height:50px;
+      border-radius:25px;
+      background-color: rgb(0, 0, 0);
+      position:relative;
+  }
+  .nostril:nth-child(1)
+  {
+      top:20px;
+      left:20px;
+  }
+  .nostril:nth-child(2)
+  {
+      top:-30px;
+      left:80px;
+  }
+  .ear1,.ear2{
+      width:250px;
+      height:250px;
+      border-radius:125px;
+      background-color: brown;
+      border:1px solid black;
+      position:relative;
+  }
+  .ear1{
+      top:-10px;
+      left:-30px
+  }
+  .ear2{
+      left:250px;
+      top:-260px;
+  }
+  .innerear{
+      width:160px;
+      height:160px;
+      border-radius: 80px;
+      background-color:pink;
+      position:relative;
+      top:90px;
+      left:50px;
+  }
